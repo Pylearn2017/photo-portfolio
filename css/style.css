@@ -15,7 +15,6 @@ body {
   max-width: 1440px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
   background-color: #000;
 }
 
@@ -47,15 +46,43 @@ nav {
   width: 500px;
   height: 50px;
   display: flex;
+  justify-content: flex-end;
   align-items: center;
-  padding: 0 30px;
+/*   padding: 0 30px; */
   
   
 }
 
 nav a {
   color: #fff;
-  text-decoration: none;
   font-size: 20px;
+  text-decoration: none;
   margin: 0 15px;
+  
+}
+
+.switch {
+  margin-left: 15px;
+}
+
+.switch input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.switch label {
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.switch label:first-child {
+  color: #BDAE82;
+}
+
+.switch label:first-child::after {
+  content: ' / '
 }
