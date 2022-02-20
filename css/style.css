@@ -1,19 +1,29 @@
-htlm {
+*, *::before, *::after {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
-
-*, *::before, *::after {
-  box-sizing: inherit;
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   background-color: #363636;
   color: #fff;
 }
 
+header {
+  display: flex;
+  height: 90px;
+  justify-content: space-around;
+  
+}
+
+nav {
+  display: block;
+  padding: 20px;
+}
+
 .container {
-  max-width: 1440рх;
+  width: 1440px;
   background-color: #000;
 }
