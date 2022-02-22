@@ -142,14 +142,17 @@ nav a {
   line-height: 40px;
 }
 
-.hero-btn {
-  background: #BDAE82;
+button {
   width: 220px;
   height: 55px;
   font-size: 20px;
-
   border: medium none;
   border-spacing: 0;
+  cursor: pointer;
+}
+
+.hero-btn {
+  background: #BDAE82;
 }
 
 .title{
@@ -216,4 +219,35 @@ h2::before, h2::after{
 
 .skill-description {
   padding: 0 20px;
+}
+
+.row-seasons {
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.season-button {
+  border: 2px solid #BDAE82;
+  background-color: #000;
+  color: #BDAE82;
+  margin: 0 2.5px;
+  transition: .1s
+}
+
+.season-button:hover {
+  color: #000;
+  background-color: #BDAE82;
+}
+
+
+.portfolio-images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.portfolio-image {
+  padding: 12.5px;
 }
