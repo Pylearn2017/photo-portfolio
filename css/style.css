@@ -251,3 +251,30 @@ h2::before, h2::after{
 .portfolio-image {
   padding: 12.5px;
 }
+
+.video-player {
+  margin: 0 auto;
+  width: 100%;
+  height: 705px;
+  background: url('../img/video-player.png');
+  background-size: cover;
+  border-left: 20px solid #000;
+  border-right: 20px solid #000;
+}
+
+.video-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.video-link::before {
+  content: '';
+  display: block;
+  width: 130px;
+  height: 130px;
+  background: url('../img/svg/Play_hover.svg');
+}
