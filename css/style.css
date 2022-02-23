@@ -162,7 +162,7 @@ button {
   align-items: center;
 }
 
-h2 {
+.title h2 {
   width: 700px;
   margin-top: 100px;
   margin-bottom: 60px;
@@ -181,7 +181,7 @@ h2 {
   
 }
 
-h2::before, h2::after{
+.title h2::before,.title h2::after{
   content: '';
   height: 2px;
   width: 300px;
@@ -332,3 +332,51 @@ section.price {
 .price-button {
   background-color: #BDAE82;
 }
+
+.contact {
+  height: 700px;
+  background: url('../img/contacts.png');
+  position: relative;
+}
+
+.form-container {
+  width: 450px;
+  height: 445px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 60px;
+  right: 20px;
+}
+
+.form-container h2 {
+  font-family: Merriweather;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 80px;
+  color: #BDAE82;
+  margin-bottom: 40px;
+}
+
+.contact-input {
+  display: block;
+  width: 100%;
+  height: 50px;
+  background-color: transparent;
+  border: 2px solid #BDAE82;
+  font-family: Inter;
+  font-size: 20px;  
+  line-height: 40px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.last {
+  height: 100px;
+  padding-bottom: 50px;  
+}
+
+.form-container form button {
+  background-color: #BDAE82;
+}
+
