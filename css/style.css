@@ -380,3 +380,55 @@ section.price {
   background-color: #BDAE82;
 }
 
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+  font-size: 20px;
+  line-height: 50px;  
+  padding: 0 40px;
+}
+
+.social-list {
+  width: 188px;
+  height: 50px;
+  display:flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  color: #fff;
+}
+ li > a {
+  display: block;
+  width: 32px;
+  height: 32px;
+   margin: 0 10px;
+ }
+
+#inst {
+  background: url('../img/svg/inst 1.svg') 
+}
+
+#fb {
+  background: url('../img/svg/fb 1.svg')
+}
+
+#tw {
+  background: url('../img/svg/tw 1.svg')
+}
+
+#pin { 
+  background: url('../img/svg/pinterest 1.svg')
+}
+
+.footer-data a {
+  color: #fff;
+}
