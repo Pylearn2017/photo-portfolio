@@ -29,6 +29,8 @@ body {
   flex-direction: column;
   font-family: Inter;
   background-color: #363636;
+    background-color: #000;
+
   color: #fff;
 
 }
@@ -415,19 +417,19 @@ li {
  }
 
 #inst {
-  background: url('../img/svg/inst 1.svg') 
+  background: url('../img/svg/inst-1.svg') 
 }
 
 #fb {
-  background: url('../img/svg/fb 1.svg')
+  background: url('../img/svg/fb-1.svg')
 }
 
 #tw {
-  background: url('../img/svg/tw 1.svg')
+  background: url('../img/svg/tw-1.svg')
 }
 
 #pin { 
-  background: url('../img/svg/pinterest 1.svg')
+  background: url('../img/svg/pinterest-1.svg')
 }
 
 .footer-data a {
