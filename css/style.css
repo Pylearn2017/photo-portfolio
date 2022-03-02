@@ -72,6 +72,22 @@ header {
   background-repeat: no-repeat;
 }
 
+.logo:hover,
+.logo:focus,
+#inst:hover,
+#fb:hover,
+#tw:hover,
+#pin:hover {
+  transition: .5s;
+  filter: invert(1%) sepia(37%) saturate(2586%) hue-rotate(312deg) brightness(110%) contrast(80%);
+}
+
+.video-player a:hover {
+  transition: .5s;
+  filter: invert(1%) sepia(37%) saturate(2586%) hue-rotate(312deg) brightness(110%) contrast(80%);
+
+}
+
 nav ul {
 /*   margin: 0 30px;
  */
@@ -93,6 +109,12 @@ nav li a.link {
   width: auto;
   height: auto;
   
+}
+
+nav li a.link:hover,
+.footer-data a:hover {
+  transition: .5s;
+  color: #BDAE82;
 }
 
 .switch {
@@ -161,6 +183,13 @@ button {
 
 .hero-btn {
   background: #BDAE82;
+}
+
+.hero-btn:hover,
+.price-button:hover,
+.send:hover {
+  transition: .5s;
+  color: #fff;
 }
 
 .title{
@@ -244,9 +273,13 @@ button {
   transition: .1s
 }
 
-.season-button:hover {
+.selected-button {
   color: #000;
   background-color: #BDAE82;
+}
+.season-button:hover {
+  transition: .5s;
+  color: #fff
 }
 
 
@@ -398,6 +431,10 @@ footer {
   font-size: 20px;
   line-height: 50px;  
   padding: 0 40px;
+}
+
+.footer-data a {
+  text-decoration: none;
 }
 
 .social-list {
