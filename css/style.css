@@ -24,12 +24,16 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   display: flex;
   flex-direction: column;
   font-family: Inter;
   background-color: #363636;
-    background-color: #000;
+  background-color: #000;
 
   color: #fff;
 
