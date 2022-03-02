@@ -68,7 +68,7 @@ header {
   background-repeat: no-repeat;
 }
 
-nav {
+nav ul {
 /*   margin: 0 30px;
  */
   width: 500px;
@@ -81,11 +81,13 @@ nav {
   
 }
 
-nav a {
+nav li a.link {
   color: #fff;
   font-size: 20px;
   text-decoration: none;
   margin: 0 15px;
+  width: auto;
+  height: auto;
   
 }
 
